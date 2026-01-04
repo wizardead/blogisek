@@ -65,3 +65,27 @@ p {
     display: block;
     background: #000;
 }
+
+#lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+}
+
+#lightbox.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#lightbox img {
+    max-width: 95%;
+    max-height: 95%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
