@@ -88,4 +88,10 @@ p {
     max-width: 95%;
     max-height: 95%;
     box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    cursor: zoom-out;
+}
+
+/* Make thumbnail images indicate they're clickable */
+img {
+    cursor: zoom-in;
 }
