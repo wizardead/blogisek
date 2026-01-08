@@ -1,1 +1,7 @@
 /scripts/node_modules
+/.idea/intellij-latte-pro/xmlSources/Latte.dtd
+/.idea/intellij-latte-pro/xmlSources/Latte.xml
+/.idea/intellij-latte-pro/xmlSources/Latte.xsd
+/.idea/intellij-latte-pro/xmlSources/NetteApplication.xml
+/.idea/intellij-latte-pro/xmlSources/NetteAssets.xml
+/.idea/intellij-latte-pro/xmlSources/NetteForms.xml
